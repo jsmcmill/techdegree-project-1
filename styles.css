@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/DSC_0553-4.jpg') no-repeat top center ;
+  background: url('images/rsz_DSC_0553-4.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -69,8 +69,8 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid black;
+  border-radius: 25%;
+  border: 5px solid whitesmoke;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -89,7 +89,7 @@ header .profile-image:hover {
   color: white;
 }
 .card {
-  margin: 30px;
+  margin: 50px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
@@ -173,7 +173,7 @@ a.social:hover {
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex; 
-      max-width: 1200px;
+      max-width: 1500px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
@@ -203,17 +203,6 @@ a.social:hover {
     margin: 40px auto;
   }
 
-  .container {
-    margin: 30px;
-    padding: 20px 40px 40px;
-    max-width: 500px;
-    text-align: center;
-    background: #fff;
-    border-bottom: 4px solid #ccc;
-    border-radius: 6px;
-    transition: all .5s;
-  }
-
   .column{
     float:left;
     width: 25%;
@@ -223,13 +212,12 @@ a.social:hover {
   .images{
     padding: 10px;
     border: 5px;
-    overflow: hidden;
   }
 
   .images:hover{
     transform: scale(1.05);
     transition: .5s ease;
-    overflow: hidden; 
+ 
 
   }
 
@@ -241,6 +229,14 @@ a.social:hover {
     color: rgb(8, 8, 8);
     padding: 5px 4px;
     margin: 2px;
+  }
+
+  img{
+    border: 5px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
   }
 
 
